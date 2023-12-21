@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --watch",
+    "start": "ng serve",
+    "dev": "ng serve --poll=2000",
     "build": "ng build",
     "test": "ng test"
   },
